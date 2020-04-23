@@ -33,5 +33,6 @@ module DevOneBitCode
     config.generators.system_tests = nil
     config.generators.assets = false
     config.generators.helper = false
+    config.generators.factory_bot dir: 'features/factories'
   end
 end
